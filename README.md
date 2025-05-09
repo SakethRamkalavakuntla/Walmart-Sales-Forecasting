@@ -1,37 +1,40 @@
-# Walmart-Sales-Forecasting
-Customer Transaction Prediction using Naive Bayes and Bayesian Optimization
-This project focuses on building a machine learning pipeline to predict customer transactions using a combination of Gaussian Mixture Models, Naive Bayes, and Bayesian Optimization for hyperparameter tuning. The solution includes A/B testing to evaluate model performance and identify the most effective approach for business deployment.
 
-Project Overview
-Objective: Predict the likelihood of customer transactions based on behavioral and demographic data.
+#  Walmart Sales Forecasting
 
-Techniques Used:
+This project focuses on forecasting future sales for Walmart stores using time series modeling. It uses the **ARIMA** model to predict unit sales and is complemented with interactive visualizations built using business intelligence tools like **Power BI** or **Tableau**.
 
-Gaussian Mixture Models for clustering
+---
 
-Naive Bayes for classification
+##  Features
 
-Bayesian Optimization for tuning model hyperparameters
+- Cleaned and preprocessed Walmart sales data
+- Time series forecasting using **ARIMA**
+- Performance evaluation using **MAPE**
+- Interactive dashboards for visual insights
+- Real-world application for retail demand forecasting
 
-A/B Testing for model performance validation
+---
 
-Key Features
-Predictive Modeling: Probabilistic modeling of customer behavior using generative approaches.
+##  Model Overview
 
-Hyperparameter Tuning: Automated and efficient tuning using Bayesian Optimization.
+- **Model Used**: ARIMA (AutoRegressive Integrated Moving Average)
+- **Data**: Historical weekly sales data from Walmart
+- **Preprocessing**: Handled missing values, outliers, and ensured stationarity
+- **Forecast Target**: Weekly sales for specific departments or stores
+- **Evaluation Metric**: Mean Absolute Percentage Error (MAPE)
 
-Model Evaluation: Includes accuracy, precision, recall, F1 score, and confusion matrix visualizations.
+---
 
-A/B Testing: Statistical testing to compare baseline and optimized models.
+##  BI Integration
 
-Business Impact: Supports targeted marketing strategies and optimized resource allocation.
+The project includes a Power BI or Tableau dashboard that visualizes:
 
-Tools & Technologies
-Python (Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn)
+- Historical sales trends
+- Forecasted sales
+- Store-level performance
+- Department-wise breakdowns
 
-Scikit-optimize / Hyperopt (for Bayesian Optimization)
+---
 
-Jupyter Notebook
 
-Power BI (for visualization of prediction results and customer segments)
 
